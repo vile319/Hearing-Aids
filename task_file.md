@@ -83,4 +83,4 @@ You may also need to add the following background modes to support audio in the 
 ### 6. Prototype Testing
 - **Device Compatibility**: Test the prototype with various hearing aids and earbuds.
 - **Audio Quality**: Evaluate the audio processing features in different environments.
-- **User Feedback**: Gather feedback from users to identify areas for improvement. 
+- **User Feedback**: Gather feedback from users to identify areas for improvement. ss
