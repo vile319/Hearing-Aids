@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C59B17862DAD6B8A001CA621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C59B17702DAD6B87001CA621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59B17772DAD6B87001CA621;
+			remoteInfo = "Hearing-Aids";
+		};
+		C59B17902DAD6B8A001CA621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C59B17702DAD6B87001CA621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59B17772DAD6B87001CA621;
+			remoteInfo = "Hearing-Aids";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C59B17782DAD6B87001CA621 /* Hearing-Aids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hearing-Aids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59B17852DAD6B8A001CA621 /* Hearing-AidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hearing-AidsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59B178F2DAD6B8A001CA621 /* Hearing-AidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hearing-AidsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C59B17AF2DAD6E01001CA621 /* Exceptions for "Hearing-Aids" folder in "Hearing-Aids" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C59B17772DAD6B87001CA621 /* Hearing-Aids */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C59B177A2DAD6B87001CA621 /* Hearing-Aids */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C59B17AF2DAD6E01001CA621 /* Exceptions for "Hearing-Aids" folder in "Hearing-Aids" target */,
+			);
+			path = "Hearing-Aids";
+			sourceTree = "<group>";
+		};
+		C59B17882DAD6B8A001CA621 /* Hearing-AidsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Hearing-AidsTests";
+			sourceTree = "<group>";
+		};
+		C59B17922DAD6B8A001CA621 /* Hearing-AidsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Hearing-AidsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59B17752DAD6B87001CA621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59B17822DAD6B8A001CA621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59B178C2DAD6B8A001CA621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C59B176F2DAD6B87001CA621 = {
+			isa = PBXGroup;
+			children = (
+				C59B177A2DAD6B87001CA621 /* Hearing-Aids */,
+				C59B17882DAD6B8A001CA621 /* Hearing-AidsTests */,
+				C59B17922DAD6B8A001CA621 /* Hearing-AidsUITests */,
+				C59B17792DAD6B87001CA621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59B17792DAD6B87001CA621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59B17782DAD6B87001CA621 /* Hearing-Aids.app */,
+				C59B17852DAD6B8A001CA621 /* Hearing-AidsTests.xctest */,
+				C59B178F2DAD6B8A001CA621 /* Hearing-AidsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C59B17772DAD6B87001CA621 /* Hearing-Aids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59B17992DAD6B8A001CA621 /* Build configuration list for PBXNativeTarget "Hearing-Aids" */;
+			buildPhases = (
+				C59B17742DAD6B87001CA621 /* Sources */,
+				C59B17752DAD6B87001CA621 /* Frameworks */,
+				C59B17762DAD6B87001CA621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C59B177A2DAD6B87001CA621 /* Hearing-Aids */,
+			);
+			name = "Hearing-Aids";
+			packageProductDependencies = (
+			);
+			productName = "Hearing-Aids";
+			productReference = C59B17782DAD6B87001CA621 /* Hearing-Aids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C59B17842DAD6B8A001CA621 /* Hearing-AidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59B179C2DAD6B8A001CA621 /* Build configuration list for PBXNativeTarget "Hearing-AidsTests" */;
+			buildPhases = (
+				C59B17812DAD6B8A001CA621 /* Sources */,
+				C59B17822DAD6B8A001CA621 /* Frameworks */,
+				C59B17832DAD6B8A001CA621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C59B17872DAD6B8A001CA621 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C59B17882DAD6B8A001CA621 /* Hearing-AidsTests */,
+			);
+			name = "Hearing-AidsTests";
+			packageProductDependencies = (
+			);
+			productName = "Hearing-AidsTests";
+			productReference = C59B17852DAD6B8A001CA621 /* Hearing-AidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C59B178E2DAD6B8A001CA621 /* Hearing-AidsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59B179F2DAD6B8A001CA621 /* Build configuration list for PBXNativeTarget "Hearing-AidsUITests" */;
+			buildPhases = (
+				C59B178B2DAD6B8A001CA621 /* Sources */,
+				C59B178C2DAD6B8A001CA621 /* Frameworks */,
+				C59B178D2DAD6B8A001CA621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C59B17912DAD6B8A001CA621 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C59B17922DAD6B8A001CA621 /* Hearing-AidsUITests */,
+			);
+			name = "Hearing-AidsUITests";
+			packageProductDependencies = (
+			);
+			productName = "Hearing-AidsUITests";
+			productReference = C59B178F2DAD6B8A001CA621 /* Hearing-AidsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C59B17702DAD6B87001CA621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					C59B17772DAD6B87001CA621 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					C59B17842DAD6B8A001CA621 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C59B17772DAD6B87001CA621;
+					};
+					C59B178E2DAD6B8A001CA621 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C59B17772DAD6B87001CA621;
+					};
+				};
+			};
+			buildConfigurationList = C59B17732DAD6B87001CA621 /* Build configuration list for PBXProject "Hearing-Aids" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C59B176F2DAD6B87001CA621;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C59B17792DAD6B87001CA621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C59B17772DAD6B87001CA621 /* Hearing-Aids */,
+				C59B17842DAD6B8A001CA621 /* Hearing-AidsTests */,
+				C59B178E2DAD6B8A001CA621 /* Hearing-AidsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59B17762DAD6B87001CA621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59B17832DAD6B8A001CA621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59B178D2DAD6B8A001CA621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59B17742DAD6B87001CA621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59B17812DAD6B8A001CA621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59B178B2DAD6B8A001CA621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C59B17872DAD6B8A001CA621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C59B17772DAD6B87001CA621 /* Hearing-Aids */;
+			targetProxy = C59B17862DAD6B8A001CA621 /* PBXContainerItemProxy */;
+		};
+		C59B17912DAD6B8A001CA621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C59B17772DAD6B87001CA621 /* Hearing-Aids */;
+			targetProxy = C59B17902DAD6B8A001CA621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C59B17972DAD6B8A001CA621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C59B17982DAD6B8A001CA621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C59B179A2DAD6B8A001CA621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R45LW7ZYN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hearing-Aids/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to connect to your hearing aids or earbuds.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to capture audio for hearing enhancement";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haviland.Hearing-Aids";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C59B179B2DAD6B8A001CA621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R45LW7ZYN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hearing-Aids/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to connect to your hearing aids or earbuds.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to capture audio for hearing enhancement";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haviland.Hearing-Aids";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C59B179D2DAD6B8A001CA621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haviland.Hearing-AidsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hearing-Aids.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hearing-Aids";
+			};
+			name = Debug;
+		};
+		C59B179E2DAD6B8A001CA621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haviland.Hearing-AidsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hearing-Aids.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hearing-Aids";
+			};
+			name = Release;
+		};
+		C59B17A02DAD6B8A001CA621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haviland.Hearing-AidsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hearing-Aids";
+			};
+			name = Debug;
+		};
+		C59B17A12DAD6B8A001CA621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haviland.Hearing-AidsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hearing-Aids";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C59B17732DAD6B87001CA621 /* Build configuration list for PBXProject "Hearing-Aids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59B17972DAD6B8A001CA621 /* Debug */,
+				C59B17982DAD6B8A001CA621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59B17992DAD6B8A001CA621 /* Build configuration list for PBXNativeTarget "Hearing-Aids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59B179A2DAD6B8A001CA621 /* Debug */,
+				C59B179B2DAD6B8A001CA621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59B179C2DAD6B8A001CA621 /* Build configuration list for PBXNativeTarget "Hearing-AidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59B179D2DAD6B8A001CA621 /* Debug */,
+				C59B179E2DAD6B8A001CA621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59B179F2DAD6B8A001CA621 /* Build configuration list for PBXNativeTarget "Hearing-AidsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59B17A02DAD6B8A001CA621 /* Debug */,
+				C59B17A12DAD6B8A001CA621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C59B17702DAD6B87001CA621 /* Project object */;
+}
